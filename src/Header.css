@@ -1,3 +1,4 @@
+/* sticky means be static at the top like a header */
 .header {
     display: flex;
     justify-content: space-between;
@@ -19,9 +20,25 @@
     display: flex;
     flex: 1;
     align-items: center;
+    max-width: fit-content;
+    padding: 10px;
+    height: 30px;
+    border: 1px solid lightgray;
+    border-radius: 999px;
+}
+
+/* padding: increase the size of search box && outline-width: 0 erase the line del cuadro de texto*/
+.header__center > input {
+    border: none;
+    padding: 10px;
+    outline-width: 0;
+    /*width: 250px;*/
 }
 
 .header__right {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    width: 15vw;
+    margin-right: 80px;
 }

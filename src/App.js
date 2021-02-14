@@ -7,7 +7,6 @@ function App() {
 
     //BEM
     <div className="App">
-      <h1>airbnb-clone</h1>
       <Header />
       <Home />
 
